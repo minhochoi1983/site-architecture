@@ -11,7 +11,11 @@
 html, body {
   background-color: #ffeead;
   margin: 10px;
+  height: 100%;
 
+}
+body {
+  height: 100vh;
 }
 h3 {
   font-style: arial;
@@ -215,4 +219,29 @@ div .footer-link a {
 }
 .footer-top {
   border-bottom: 2px solid #ffeead;
+}
+
+.menu a:hover {
+  color: red;
+}
+a:hover {
+  color: red;
+}
+.footer-link a:hover {
+  color: red;
+}
+.container::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: teal;
+}
+.back-to-top a:hover {
+  color: teal;
 }
